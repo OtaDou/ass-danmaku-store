@@ -58,11 +58,11 @@ const config: PlaywrightTestConfig = {
         viewport: { width: 1920, height: 1080 },
         locale: "ja-JP",
         // // uncomment and configure below if using proxy
-        // launchOptions:{
-        //   proxy: {
-        //     server: 'http://localhost:11223',
-        //   }
-        // }
+        launchOptions:{
+          proxy: {
+            server: 'http://localhost:11223',
+          }
+        }
       },
     },
 

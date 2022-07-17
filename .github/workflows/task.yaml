@@ -1,8 +1,8 @@
 on:
   workflow_dispatch:
-  ## Uncomment below if you want run it everyday
-  #schedule:
-  #- cron: "0 0 * * *"
+  # Uncomment below if you want run it everyday
+  schedule:
+  - cron: "0 0 * * *"
 
 permissions: write-all
 
@@ -18,13 +18,13 @@ jobs:
         with: 
           fetch-depth: 0
           ref: ${{env.BRANCH}}
-      ## Uncomment step below if you using clash, also uncomment playwright.config.ts launchOptions part
-      # - name: Setup clash
-      #   uses: OtaDou/setup-clash@v1
-      #   with:
-      #     subscription_url: ${{ secrets.SUBSCRIPTION_URL }}
-      #     proxies_name_regex: ${{ secrets.SUBSCRIPTION_REGEX }}
-      # - run: curl -s --proxy "http://127.0.0.1:11223" ipinfo.io | jq .country
+      # Uncomment step below if you using clash, also uncomment playwright.config.ts launchOptions part
+      - name: Setup clash
+        uses: OtaDou/setup-clash@v1
+        with:
+          subscription_url: ${{ secrets.SUBSCRIPTION_URL }}
+          proxies_name_regex: ${{ secrets.SUBSCRIPTION_REGEX }}
+      - run: curl -s --proxy "http://127.0.0.1:11223" ipinfo.io | jq .country
       - name: Run task
         run: |
           git config --local user.email "action@github.com" && git config --local user.name "GitHub Action"
