@@ -11,6 +11,7 @@
 | Title | Time | Resource |
 | ----- | ----- | ----- |
 | オーバーロードⅣ Episode1「アインズ・ウール・ゴウン魔導国」 | 2022-07-17 | <a href="archive%2Foverlord4%2F%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A3%20Episode1%E3%80%8C%E3%82%A2%E3%82%A4%E3%83%B3%E3%82%BA%E3%83%BB%E3%82%A6%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%B4%E3%82%A6%E3%83%B3%E9%AD%94%E5%B0%8E%E5%9B%BD%E3%80%8D.ass">ass</a> |
+| オーバーロードⅣ Episode2「リ・エスティーゼ王国」 | 2022-07-20 | <a href="archive%2Foverlord4%2F%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89%E2%85%A3%20Episode2%E3%80%8C%E3%83%AA%E3%83%BB%E3%82%A8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BC%E7%8E%8B%E5%9B%BD%E3%80%8D.ass">ass</a> |
   
 
 ## Download archive
